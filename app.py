@@ -90,8 +90,8 @@ class ChatUX:
 
 bedrock_runtime = boto3.client(
     service_name='bedrock-runtime', 
-    aws_access_key_id='AKIA6OCBREVZTD27JHH6',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key='',
     region_name='us-east-1'
 )
 br_embeddings = BedrockEmbeddings(model_id="amazon.titan-embed-g1-text-02", client=bedrock_runtime)
